@@ -19,15 +19,32 @@
     3. Màu sắc
     4. Kiểu dáng ( Kiểu chữ, hình tròn, hình vuông,...) 
     */
-    #main {
-
-    }
+    /* Common */
     .clear {
         clear: both;
     }
     .text-white {
         color: #fff !important;
     }
+    .colum {
+        float: left;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .colum-half {
+        width: 50%;
+    }
+    .colum-third {
+        width: 33.3333%;
+    }
+    .row {
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .text-center {
+        text-align: center !important;
+    }
+    /* Main */
     #header {
         position: fixed;
         top: 0;
@@ -154,12 +171,6 @@
     }
     #content .members-list {
         margin-top: 48px;
-        display: flex;
-    }
-    #content .member-item {
-        float: left;
-        width: 33.33%;
-        text-align: center;
     }
     #content .member-name {
         font-size: 15px;
@@ -202,14 +213,8 @@
     }
     /* Places */
     .places-list {
-        margin: 32px -8px 0;
-        padding-bottom: 48px;
-    }
-    .place-item {
-        float: left;
-        width: 33.3333%;
-        padding: 0 8px;
-        /* align-items: center; */
+        margin-top: 32px;
+        margin-bottom: 48px;
     }
     .place-img {
         width: 100%;
